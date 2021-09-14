@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
+
+
+
+    <title>Podcast Channel</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img src="./img/logo.svg" alt="" class="logo-container">
+            <input type="checkbox" id="chk-nav-bar">
+            <label for="chk-nav-bar" id="burger-close" class="x">&#x2716;</label>
+            <label for="chk-nav-bar" id="burger-open" class="hamburguer">&#9776;</label>
+
+            <ul class="menu-options">
+                <li><a class="menu-options-links" href="#episodios">episodios</a></li>
+                <li><a class="menu-options-links" href="#nosotros">nosotros</a></li>
+                <li><a class="menu-options-links" href="#entrevistas">entrevistas</a></li>
+                <li><a class="menu-options-links" href="#topicos">tópicos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1 class="titulo">Hello <span class="tachado">world</span> pale blue dot <span class="punto">.</span></h1>
+        <p class="texto">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15
+            días.</p>
+        <button class="boton">conocé más</button>
+    </section>
+    <section class="section-episodios" id="episodios">
+        <svg class="episode-backgound-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <polygon fill="white" points="0,0 100,0 0,70" />
+        </svg>
+        <svg class="episode-backgound-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <polygon fill="white" points="100,100 100,0 0,100" />
+        </svg>
+        <h2 class="titulo2">Episodios</h2>
+        <div class="ctn-iframe">
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/4TVf9ldzZpa4LKTQecAqCy"
+                allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+                allow="encrypted-media"></iframe>
+            <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                allow="encrypted-media"></iframe>
+        </div>
+
+    </section>
+    <section class="section-3" id="nosotros">
+        <img class="phone" src="./img/phone.png" alt="phone">
+        <div class="article">
+            <h2 class="titulo3">De dónde venimos</h2>
+            <p class="texto-t3">Our posturings, our imagined self-importance, the delusion that we have some privileged
+                position in the
+                Universe, are challenged by this point of pale light.</p>
+            <p class="texto-t4"> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in
+                all
+                this vastness,
+                there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        </div>
+    </section>
+    <section id="entrevistas">
+        <h2 class="titulo4">Invitadas/os estelares</h2>
+        <div class="img-flex">
+            <div class="ctn-img"><img class="img" src="./img/grace-hopper.png" alt="grace-hopper"></div>
+            <div class="ctn-img"><img class="img" src="./img/Katie-Bouman.png" alt="Katie-Bouman"></div>
+            <div class="ctn-img"><img class="img" src="./img/Margaret_Hamilton.png" alt="Margaret_Hamilton"></div>
+            <div class="ctn-img"><img class="img" src="./img/AnE.R.A.Univac1103computerinthe1950s.png"
+                    alt="computerinthe1950">
+            </div>
+            <div class="ctn-img"><img class="img"
+                    src="./img/ComputeroperatorswithanEniac—theworld’sfirstprogrammablegeneral-purposcomputer.png"
+                    alt="firstprogammablegeneral"></div>
+            <div class="ctn-img"><img class="img" src="./img/susan-kare.png" alt="susan-kare"></div>
+        </div>
+    </section>
+    <section id="topicos">
+        <h2 class="titulo5">Algunos de nuestros temas</h2>
+        <div class="icon-flex">
+            <div class="ctn-icon"><img class="icon1" src="./img/icon1.svg" alt="icon">
+            </div>
+            <h3 class="text-icon text1">Trabajo remoto</h3>
+            <div class="ctn-icon"><img class="icon2" src="./img/icon2.svg" alt="icon">
+            </div>
+            <h3 class="text-icon text2">Repensando la <br> programación</h3>
+            <div class="ctn-icon"><img class="icon3" src="./img/icon3.svg" alt="icon">
+            </div>
+            <h3 class="text-icon text3">Bases del código</h3>
+            <div class="ctn-icon"><img class="icon4" src="./img/icon4.svg" alt="icon">
+            </div>
+            <h3 class="text-icon text4">Seguridad informática</h3>
+        </div>
+    </section>
+    <section class="section-final">
+        <svg class="episode-backgound-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+            preserveAspectRatio="none">
+            <polygon fill="white" points="0,0 100,0 0,70" />
+        </svg>
+        <h2 class="titulo6">¿Querés las últimas novedades?</h2>
+        <button class="last-button">ESCUCHÁ LOS EPISODIOS</button>
+    </section>
+    <footer class="footer-flex">
+        <p class="footer">© 2019— Hello blue pale dot</p>
+        <div class="icons">
+            <a href="https://open.spotify.com" target="_blank" class="color"><i class="fa fa-spotify"
+                    aria-hidden="true"></i></a>
+            <a href="https://instagram.com" target="_blank" class="color"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
+            <a href="https://twitter.com" target="_blank" class="color"><i class="fa fa-twitter"
+                    aria-hidden="true"></i></a>
+            <a href="https://facebook.com" target="_blank" class="color"><i class="fa fa-facebook-official"
+                    aria-hidden="true"></i></a>
+            <a href="https://telegram.org" target="_blank" class="color"><i class="fa fa-telegram"
+                    aria-hidden="true"></i></a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/8843e54cb3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
